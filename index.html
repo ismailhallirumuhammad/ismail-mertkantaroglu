@@ -10,8 +10,32 @@
   <h1 id="title">Microverse Survey</h1>
   <p id="description"></p>
   <form id="survey-form">
-    <input id="name" type="text">
-    <input id="email" type="'email">
+    
+    <label for="name">Name
+        <input id="name" type="text" placeholder="Enter your name">
+    </label>
+    
+    <br>
+    
+    <label for="email">email
+        <input id="email" type="email" placeholder="Enter your Email">
+    </label>
+    <br>
+    
+    <label for="age">Age
+        <input type="number" placeholder="Age">
+    </label>
+
+    <br>
+
+    <label for="role">
+        <select name="role" id="role">
+            <option value="current-role" selected>Cureent Role</option>
+            <option value="Student">Student</option>
+            <option value="full-time">Full Time Job</option>
+        </select>
+    </label>
+    
   </form>
 </body>
 </html>
