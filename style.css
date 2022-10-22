@@ -3,8 +3,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-   background-color: grey;)
+   background-color: grey;
 } 
 
 .header {
@@ -19,6 +24,7 @@ label {
 form {
     background-color: #173459;
     padding: 15px;
+    margin: 30px;
 }
 
 input[type='text'],input[type='email'],input[type='number'],select,textarea {
